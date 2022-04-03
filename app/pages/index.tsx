@@ -18,55 +18,55 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-        
-          <code className={styles.code}> a world where clean and healthy environment is everyone's concern</code>
+          <code className={styles.code}>
+            {" "}
+            a world where clean and healthy environment is everyone&rsquo;s
+            concern
+          </code>
         </p>
 
         <div className={styles.grid}>
           <a href="#" className={styles.card}>
             <h2>Nursery &rarr;</h2>
-            <p>Find in-depth information about our nursery project like different species and their uses .</p>
+            <p>
+              Find in-depth information about our nursery project like different
+              species and their uses .
+            </p>
           </a>
 
           <a href="#" className={styles.card}>
             <h2>Garbage collection&rarr;</h2>
-            <p>Learn about how we safely collect and dispose garbage in our neighbourhood</p>
-          </a>
-
-          <a
-            href="#"
-            className={styles.card}
-          >
-            <h2>Ukwenza VR &rarr;</h2>
-            <p>Learn about how we use VR technology to educate children about our environment and trees.</p>
-          </a>
-
-          <a
-            href="#"
-            className={styles.card}
-          >
-            <h2>Beach cleaning &rarr;</h2>
             <p>
-              Learn how we engage in cleaning our beach.
+              Learn about how we safely collect and dispose garbage in our
+              neighbourhood
             </p>
+          </a>
+
+          <a href="#" className={styles.card}>
+            <h2>Ukwenza VR &rarr;</h2>
+            <p>
+              Learn about how we use VR technology to educate children about our
+              environment and trees.
+            </p>
+          </a>
+
+          <a href="#" className={styles.card}>
+            <h2>Beach cleaning &rarr;</h2>
+            <p>Learn how we engage in cleaning our beach.</p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          Powered by
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
 
 export default Home
